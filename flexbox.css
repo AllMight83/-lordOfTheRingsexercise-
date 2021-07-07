@@ -1,0 +1,82 @@
+@font-face {
+    font-family: hobbitonbrushhand;
+    src: url(hobbitonbrushhand.ttf)
+  }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.content {
+    width: 600px;
+    height: 600px;
+    background-image: url(.//tierramedia.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap;
+    flex-direction: row; */
+    
+    
+}
+
+.interior {
+    width: 350px;
+    height: 400px;
+    background-color: #fff;
+    
+}
+
+.imagen {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.sauron {
+    margin: 10px;
+    display: flex;
+    /* //justify-content: space-between; */
+    align-items: center;
+    border-bottom: 1px solid #EEEEEE;
+    padding-bottom: 8px;
+}
+
+.sauron:nth-child(4) {
+    border-bottom: none;
+}
+
+
+.nombre {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    
+}
+
+.texto {
+    font-family: hobbitonbrushhand, sans-serif;
+}
+
+/* .sauron {
+    margin: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
